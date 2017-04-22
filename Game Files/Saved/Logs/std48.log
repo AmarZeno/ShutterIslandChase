@@ -1,0 +1,1221 @@
+﻿Log file open, 04/21/17 22:09:40
+LogInit:Display: Running engine for game: std48
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-170544912) SRandInit(-170544911).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.743846
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.22-04.09.41:377][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-04.09.41:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.22-04.09.41:453][  0]LogInit: Computer: DESKTOP-JPBMJ26
+[2017.04.22-04.09.41:453][  0]LogInit: User: amarz
+[2017.04.22-04.09.41:453][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.22-04.09.41:453][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.04.22-04.09.41:453][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.04.22-04.09.41:453][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.22-04.09.41:453][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
+[2017.04.22-04.09.41:453][  0]LogMemory: Process Virtual Memory: 262.69 MB used, 262.69 MB peak
+[2017.04.22-04.09.41:453][  0]LogMemory: Physical Memory: 9174.38 MB used,  23471.36 MB free, 32645.73 MB total
+[2017.04.22-04.09.41:453][  0]LogMemory: Virtual Memory: 645.13 MB used,  23471.36 MB free, 134217728.00 MB total
+[2017.04.22-04.09.42:578][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.22-04.09.46:494][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.22-04.09.47:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.04.22-04.09.47:284][  0]LogD3D11RHI:       8144/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.22-04.09.47:302][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.22-04.09.47:302][  0]LogD3D11RHI:       128/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.22-04.09.47:303][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.22-04.09.47:303][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.22-04.09.47:303][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.22-04.09.47:311][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.22-04.09.47:311][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.22-04.09.47:311][  0]LogWindows: EnumDisplayDevices:
+[2017.04.22-04.09.47:311][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.04.22-04.09.47:311][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.04.22-04.09.47:311][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.22-04.09.47:311][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.22-04.09.47:311][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-04.09.47:312][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-04.09.47:312][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-04.09.47:312][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.22-04.09.47:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.04.22-04.09.47:312][  0]LogD3D11RHI:   Driver Version: 369.45 (internal:21.21.13.6945, unified:369.45)
+[2017.04.22-04.09.47:312][  0]LogD3D11RHI:      Driver Date: 9-30-2016
+[2017.04.22-04.09.47:312][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.22-04.09.47:945][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.22-04.09.48:069][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.22-04.09.48:172][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Intermediate/Shaders/WorkingDirectory/13760/).
+[2017.04.22-04.09.48:172][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/amarz/AppData/Local/Temp/UnrealShaderWorkingDir/40DBAE394B5048C108FFAC89321E4B0B/'.
+[2017.04.22-04.09.48:172][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.22-04.09.51:395][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.22-04.09.51:509][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.22-04.09.51:572][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.22-04.09.51:672][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.22-04.09.51:749][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.22-04.09.51:816][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.22-04.09.51:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.22-04.09.51:938][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.22-04.09.51:988][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.22-04.09.52:052][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.22-04.09.52:112][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.22-04.09.52:179][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.22-04.09.52:239][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.22-04.09.52:302][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.22-04.09.52:397][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.22-04.09.52:637][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.22-04.09.52:637][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.22-04.09.52:724][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.22-04.09.52:876][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.22-04.09.52:916][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.22-04.09.52:968][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.22-04.09.53:023][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.22-04.09.53:079][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.22-04.09.53:146][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.22-04.09.53:146][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.22-04.09.54:073][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.22-04.09.54:372][  0]LogDerivedDataCache: Loaded boot cache 0.30s 51MB C:/Users/amarz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.22-04.09.54:372][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/amarz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.22-04.09.54:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.22-04.09.54:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.22-04.09.54:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.22-04.09.54:373][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.22-04.09.54:464][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.22-04.09.54:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/amarz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.22-04.09.55:952][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.22-04.09.55:981][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-04.09.55:981][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-04.09.59:815][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-04.09.59:821][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.22-04.09.59:907][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.04.22-04.09.59:911][  0]LogTemp:Display: Added material ShaderMap 0x000001D209C28800 with Material 0x000001D209C3BD00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.34:775][  0]LogTemp:Display: Finished compile of shader map 0x000001D209C28800
+[2017.04.22-04.11.34:775][  0]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x000001D209C28800, marking material WorldGridMaterial as finished
+[2017.04.22-04.11.34:775][  0]LogTemp:Display: Marking material as finished 0x000001D209C3BD00
+[2017.04.22-04.11.34:803][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2017.04.22-04.11.34:804][  0]LogTemp:Display: Added material ShaderMap 0x000001D210CE3C80 with Material 0x000001D209C31000 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.40:883][  0]LogTemp:Display: Finished compile of shader map 0x000001D210CE3C80
+[2017.04.22-04.11.40:883][  0]LogTemp:Display: Shader map DefaultDeferredDecalMaterial complete, GameThreadShaderMap 0x000001D210CE3C80, marking material DefaultDeferredDecalMaterial as finished
+[2017.04.22-04.11.40:883][  0]LogTemp:Display: Marking material as finished 0x000001D209C31000
+[2017.04.22-04.11.40:899][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2017.04.22-04.11.40:901][  0]LogTemp:Display: Added material ShaderMap 0x000001D20E09D980 with Material 0x000001D209C32380 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.41:755][  0]LogTemp:Display: Finished compile of shader map 0x000001D20E09D980
+[2017.04.22-04.11.41:755][  0]LogTemp:Display: Shader map DefaultLightFunctionMaterial complete, GameThreadShaderMap 0x000001D20E09D980, marking material DefaultLightFunctionMaterial as finished
+[2017.04.22-04.11.41:755][  0]LogTemp:Display: Marking material as finished 0x000001D209C32380
+[2017.04.22-04.11.41:761][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2017.04.22-04.11.41:762][  0]LogTemp:Display: Added material ShaderMap 0x000001D20AC5E400 with Material 0x000001D209C33E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:408][  0]LogTemp:Display: Finished compile of shader map 0x000001D20AC5E400
+[2017.04.22-04.11.42:408][  0]LogTemp:Display: Shader map DefaultPostProcessMaterial complete, GameThreadShaderMap 0x000001D20AC5E400, marking material DefaultPostProcessMaterial as finished
+[2017.04.22-04.11.42:408][  0]LogTemp:Display: Marking material as finished 0x000001D209C33E80
+[2017.04.22-04.11.42:412][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:413][  0]LogTemp:Display: Added material ShaderMap 0x000001D209EE8100 with Material 0x000001D209C39000 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:420][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D209EE8100
+[2017.04.22-04.11.42:423][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:423][  0]LogTemp:Display: Added material ShaderMap 0x000001D209E41280 with Material 0x000001D209C65C00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:433][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D209E41280
+[2017.04.22-04.11.42:440][  0]LogTemp:Display: Added shader map 0x000001D209EE8100 from material 0x000001D20DFF0700
+[2017.04.22-04.11.42:440][  0]LogTemp:Display: Found existing compiling shader for material Widget3DPassThrough, linking to other GameThreadShaderMap 0x000001D209EE8100
+[2017.04.22-04.11.42:449][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:450][  0]LogTemp:Display: Added material ShaderMap 0x000001D20AC28F00 with Material 0x000001D20DFF2C80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:461][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D20AC28F00
+[2017.04.22-04.11.42:469][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:470][  0]LogTemp:Display: Added material ShaderMap 0x000001D20A887900 with Material 0x000001D20A3CB880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:474][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D20A887900
+[2017.04.22-04.11.42:494][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:495][  0]LogTemp:Display: Added material ShaderMap 0x000001D20B413200 with Material 0x000001D20A3C9A80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:513][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D20B413200
+[2017.04.22-04.11.42:522][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2017.04.22-04.11.42:523][  0]LogTemp:Display: Added material ShaderMap 0x000001D20CC65280 with Material 0x000001D20D783E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.42:542][  0]LogTemp:Display: Kicking off shader compilation for Widget3DPassThrough, GameThreadShaderMap 0x000001D20CC65280
+[2017.04.22-04.11.42:761][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.22-04.11.42:835][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.22-04.11.42:922][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.22-04.11.42:922][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.22-04.11.42:922][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.22-04.11.43:117][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2017.04.22-04.11.43:118][  0]LogTemp:Display: Added material ShaderMap 0x000001D210BDD600 with Material 0x000001D20D781780 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:161][  0]LogTemp:Display: Kicking off shader compilation for M_ContentWindow, GameThreadShaderMap 0x000001D210BDD600
+[2017.04.22-04.11.43:200][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2017.04.22-04.11.43:201][  0]LogTemp:Display: Added material ShaderMap 0x000001D20B091600 with Material 0x000001D211C90A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:212][  0]LogTemp:Display: Kicking off shader compilation for TranslucentTransformGizmoMaterial, GameThreadShaderMap 0x000001D20B091600
+[2017.04.22-04.11.43:215][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2017.04.22-04.11.43:216][  0]LogTemp:Display: Added material ShaderMap 0x000001D20C893900 with Material 0x000001D20B07AC80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:223][  0]LogTemp:Display: Kicking off shader compilation for TransformGizmoMaterial, GameThreadShaderMap 0x000001D20C893900
+[2017.04.22-04.11.43:250][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2017.04.22-04.11.43:252][  0]LogTemp:Display: Added material ShaderMap 0x000001D20C890480 with Material 0x000001D20A76B880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:258][  0]LogTemp:Display: Kicking off shader compilation for LineMaterial, GameThreadShaderMap 0x000001D20C890480
+[2017.04.22-04.11.43:287][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2017.04.22-04.11.43:288][  0]LogTemp:Display: Added material ShaderMap 0x000001D20EC9F200 with Material 0x000001D20A768B80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:307][  0]LogTemp:Display: Kicking off shader compilation for VRTextMaterial, GameThreadShaderMap 0x000001D20EC9F200
+[2017.04.22-04.11.43:318][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2017.04.22-04.11.43:319][  0]LogTemp:Display: Added material ShaderMap 0x000001D20CB8E080 with Material 0x000001D20ECA2500 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:331][  0]LogTemp:Display: Kicking off shader compilation for VRTextMaterial, GameThreadShaderMap 0x000001D20CB8E080
+[2017.04.22-04.11.43:351][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2017.04.22-04.11.43:352][  0]LogTemp:Display: Added material ShaderMap 0x000001D20E498800 with Material 0x000001D20ECA0D00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:400][  0]LogTemp:Display: Kicking off shader compilation for DefaultTextMaterialOpaque, GameThreadShaderMap 0x000001D20E498800
+[2017.04.22-04.11.43:503][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2017.04.22-04.11.43:504][  0]LogTemp:Display: Added material ShaderMap 0x000001D20DC9B580 with Material 0x000001D20B024D00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:527][  0]LogTemp:Display: Kicking off shader compilation for GenericHMDMaterial, GameThreadShaderMap 0x000001D20DC9B580
+[2017.04.22-04.11.43:570][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2017.04.22-04.11.43:572][  0]LogTemp:Display: Added material ShaderMap 0x000001D20D0A9980 with Material 0x000001D20A4ABB80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:586][  0]LogTemp:Display: Kicking off shader compilation for FlattenHeightMat, GameThreadShaderMap 0x000001D20D0A9980
+[2017.04.22-04.11.43:608][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.04.22-04.11.43:609][  0]LogTemp:Display: Added material ShaderMap 0x000001D20A38A400 with Material 0x000001D20A4A8A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:622][  0]LogTemp:Display: Kicking off shader compilation for GridMaterial, GameThreadShaderMap 0x000001D20A38A400
+[2017.04.22-04.11.43:650][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2017.04.22-04.11.43:652][  0]LogTemp:Display: Added material ShaderMap 0x000001D20E3B0800 with Material 0x000001D20A371600 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:665][  0]LogTemp:Display: Kicking off shader compilation for LaserPointerMaterial, GameThreadShaderMap 0x000001D20E3B0800
+[2017.04.22-04.11.43:676][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2017.04.22-04.11.43:678][  0]LogTemp:Display: Added material ShaderMap 0x000001D20B75A780 with Material 0x000001D20B7ECB80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:698][  0]LogTemp:Display: Kicking off shader compilation for LaserPointerMaterial, GameThreadShaderMap 0x000001D20B75A780
+[2017.04.22-04.11.43:732][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2017.04.22-04.11.43:733][  0]LogTemp:Display: Added material ShaderMap 0x000001D20EBD8800 with Material 0x000001D20EB90E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:741][  0]LogTemp:Display: Kicking off shader compilation for GridPostProcess, GameThreadShaderMap 0x000001D20EBD8800
+[2017.04.22-04.11.43:837][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2017.04.22-04.11.43:838][  0]LogTemp:Display: Added material ShaderMap 0x000001D20D452E80 with Material 0x000001D20D446F80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:877][  0]LogTemp:Display: Kicking off shader compilation for CineMat, GameThreadShaderMap 0x000001D20D452E80
+[2017.04.22-04.11.43:954][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2017.04.22-04.11.43:955][  0]LogTemp:Display: Added material ShaderMap 0x000001D2120B2400 with Material 0x000001D21209AB00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.43:977][  0]LogTemp:Display: Kicking off shader compilation for MatineeCam_mat, GameThreadShaderMap 0x000001D2120B2400
+[2017.04.22-04.11.44:018][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2017.04.22-04.11.44:019][  0]LogTemp:Display: Added material ShaderMap 0x000001D211FB4100 with Material 0x000001D211F46E00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:041][  0]LogTemp:Display: Kicking off shader compilation for M_SimpleOpaque, GameThreadShaderMap 0x000001D211FB4100
+[2017.04.22-04.11.44:064][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2017.04.22-04.11.44:065][  0]LogTemp:Display: Added material ShaderMap 0x000001D212C71D00 with Material 0x000001D211F44700 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:090][  0]LogTemp:Display: Kicking off shader compilation for M_SimpleTranslucent, GameThreadShaderMap 0x000001D212C71D00
+[2017.04.22-04.11.44:398][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2017.04.22-04.11.44:398][  0]LogTemp:Display: Added material ShaderMap 0x000001D21289D280 with Material 0x000001D214699A80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:404][  0]LogTemp:Display: Kicking off shader compilation for SkySphereMaterial, GameThreadShaderMap 0x000001D21289D280
+[2017.04.22-04.11.44:424][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2017.04.22-04.11.44:425][  0]LogTemp:Display: Added material ShaderMap 0x000001D2147BDD00 with Material 0x000001D214698880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:456][  0]LogTemp:Display: Kicking off shader compilation for FloorPlaneMaterial, GameThreadShaderMap 0x000001D2147BDD00
+[2017.04.22-04.11.44:574][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2017.04.22-04.11.44:575][  0]LogTemp:Display: Added material ShaderMap 0x000001D213CB2400 with Material 0x000001D2147E4E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:594][  0]LogTemp:Display: Kicking off shader compilation for LandscapeGizmo_Mat, GameThreadShaderMap 0x000001D213CB2400
+[2017.04.22-04.11.44:601][  0]LogTemp:Display: Added shader map 0x000001D213CB2400 from material 0x000001D21278A980
+[2017.04.22-04.11.44:601][  0]LogTemp:Display: Found existing compiling shader for material LandscapeGizmo_Mat, linking to other GameThreadShaderMap 0x000001D213CB2400
+[2017.04.22-04.11.44:618][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2017.04.22-04.11.44:621][  0]LogTemp:Display: Added material ShaderMap 0x000001D2144B8480 with Material 0x000001D212789300 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:678][  0]LogTemp:Display: Kicking off shader compilation for LandscapeGizmoHeight_Mat, GameThreadShaderMap 0x000001D2144B8480
+[2017.04.22-04.11.44:714][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2017.04.22-04.11.44:715][  0]LogTemp:Display: Added material ShaderMap 0x000001D21B313900 with Material 0x000001D21C28FD00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:734][  0]LogTemp:Display: Kicking off shader compilation for SplineEditorMeshMat, GameThreadShaderMap 0x000001D21B313900
+[2017.04.22-04.11.44:792][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2017.04.22-04.11.44:793][  0]LogTemp:Display: Added material ShaderMap 0x000001D21C123580 with Material 0x000001D21C140B80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.44:836][  0]LogTemp:Display: Kicking off shader compilation for HelpActorMaterial, GameThreadShaderMap 0x000001D21C123580
+[2017.04.22-04.11.45:275][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: std48, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2409391145
+[2017.04.22-04.11.45:348][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.04.22-04.11.45:431][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.040002 seconds
+[2017.04.22-04.11.45:439][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.22-04.11.45:439][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.22-04.11.45:439][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.22-04.11.45:560][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.22-04.11.50:112][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2017.04.22-04.11.50:114][  0]LogTemp:Display: Added material ShaderMap 0x000001D21CDD4100 with Material 0x000001D21CDCD300 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.50:133][  0]LogTemp:Display: Kicking off shader compilation for DefaultSpriteMaterial, GameThreadShaderMap 0x000001D21CDD4100
+[2017.04.22-04.11.50:143][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2017.04.22-04.11.50:144][  0]LogTemp:Display: Added material ShaderMap 0x000001D21CE27200 with Material 0x000001D21CE1B400 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.50:157][  0]LogTemp:Display: Kicking off shader compilation for DefaultSpriteMaterial, GameThreadShaderMap 0x000001D21CE27200
+[2017.04.22-04.11.50:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.22-04.11.50:666][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.22-04.11.50:900][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.04.22-04.11.50:902][  0]LogTemp:Display: Added material ShaderMap 0x000001D21C9A6B00 with Material 0x000001D21C9BB880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:009][  0]LogTemp:Display: Kicking off shader compilation for DefaultMaterial, GameThreadShaderMap 0x000001D21C9A6B00
+[2017.04.22-04.11.51:576][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.04.22-04.11.51:577][  0]LogTemp:Display: Added material ShaderMap 0x000001D21DEB2780 with Material 0x000001D21DE91000 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:584][  0]LogTemp:Display: Kicking off shader compilation for BaseColor, GameThreadShaderMap 0x000001D21DEB2780
+[2017.04.22-04.11.51:588][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2017.04.22-04.11.51:589][  0]LogTemp:Display: Added material ShaderMap 0x000001D21DD76B00 with Material 0x000001D21DD6AF80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:597][  0]LogTemp:Display: Kicking off shader compilation for CustomDepth, GameThreadShaderMap 0x000001D21DD76B00
+[2017.04.22-04.11.51:631][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.22-04.11.51:637][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2017.04.22-04.11.51:639][  0]LogTemp:Display: Added material ShaderMap 0x000001D21DD08F00 with Material 0x000001D21DA88A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:647][  0]LogTemp:Display: Kicking off shader compilation for CustomStencil, GameThreadShaderMap 0x000001D21DD08F00
+[2017.04.22-04.11.51:652][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2017.04.22-04.11.51:653][  0]LogTemp:Display: Added material ShaderMap 0x000001D21DA31280 with Material 0x000001D21DA64A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:662][  0]LogTemp:Display: Kicking off shader compilation for FinalImage, GameThreadShaderMap 0x000001D21DA31280
+[2017.04.22-04.11.51:666][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.04.22-04.11.51:667][  0]LogTemp:Display: Added material ShaderMap 0x000001D21D9C9980 with Material 0x000001D21D99E800 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:675][  0]LogTemp:Display: Kicking off shader compilation for LightingModel, GameThreadShaderMap 0x000001D21D9C9980
+[2017.04.22-04.11.51:679][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.04.22-04.11.51:680][  0]LogTemp:Display: Added material ShaderMap 0x000001D21E686080 with Material 0x000001D21D99CE80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:688][  0]LogTemp:Display: Kicking off shader compilation for MaterialAO, GameThreadShaderMap 0x000001D21E686080
+[2017.04.22-04.11.51:692][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.04.22-04.11.51:693][  0]LogTemp:Display: Added material ShaderMap 0x000001D21E612780 with Material 0x000001D21E5EEF80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:701][  0]LogTemp:Display: Kicking off shader compilation for Metallic, GameThreadShaderMap 0x000001D21E612780
+[2017.04.22-04.11.51:705][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.04.22-04.11.51:706][  0]LogTemp:Display: Added material ShaderMap 0x000001D21E58AE80 with Material 0x000001D21E5ED480 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:715][  0]LogTemp:Display: Kicking off shader compilation for Opacity, GameThreadShaderMap 0x000001D21E58AE80
+[2017.04.22-04.11.51:718][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.04.22-04.11.51:719][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F287580 with Material 0x000001D21F277A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:728][  0]LogTemp:Display: Kicking off shader compilation for Roughness, GameThreadShaderMap 0x000001D21F287580
+[2017.04.22-04.11.51:732][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2017.04.22-04.11.51:733][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F213C80 with Material 0x000001D21F275C00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:742][  0]LogTemp:Display: Kicking off shader compilation for SceneColor, GameThreadShaderMap 0x000001D21F213C80
+[2017.04.22-04.11.51:746][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2017.04.22-04.11.51:747][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F210100 with Material 0x000001D21F274280 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:755][  0]LogTemp:Display: Kicking off shader compilation for SceneDepth, GameThreadShaderMap 0x000001D21F210100
+[2017.04.22-04.11.51:759][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2017.04.22-04.11.51:760][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F194800 with Material 0x000001D21F19E200 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:768][  0]LogTemp:Display: Kicking off shader compilation for SeparateTranslucencyRGB, GameThreadShaderMap 0x000001D21F194800
+[2017.04.22-04.11.51:772][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2017.04.22-04.11.51:773][  0]LogTemp:Display: Added material ShaderMap 0x000001D21EE88B80 with Material 0x000001D21F19C580 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:782][  0]LogTemp:Display: Kicking off shader compilation for SeparateTranslucencyA, GameThreadShaderMap 0x000001D21EE88B80
+[2017.04.22-04.11.51:786][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.04.22-04.11.51:787][  0]LogTemp:Display: Added material ShaderMap 0x000001D21EE19280 with Material 0x000001D21EE3A200 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:795][  0]LogTemp:Display: Kicking off shader compilation for Specular, GameThreadShaderMap 0x000001D21EE19280
+[2017.04.22-04.11.51:799][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.04.22-04.11.51:800][  0]LogTemp:Display: Added material ShaderMap 0x000001D21ED95980 with Material 0x000001D21EE38880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:809][  0]LogTemp:Display: Kicking off shader compilation for SubsurfaceColor, GameThreadShaderMap 0x000001D21ED95980
+[2017.04.22-04.11.51:813][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.04.22-04.11.51:814][  0]LogTemp:Display: Added material ShaderMap 0x000001D21EA7DD00 with Material 0x000001D21EA66980 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:823][  0]LogTemp:Display: Kicking off shader compilation for WorldNormal, GameThreadShaderMap 0x000001D21EA7DD00
+[2017.04.22-04.11.51:828][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2017.04.22-04.11.51:830][  0]LogTemp:Display: Added material ShaderMap 0x000001D21E9FA080 with Material 0x000001D21EA64B80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:843][  0]LogTemp:Display: Kicking off shader compilation for AmbientOcclusion, GameThreadShaderMap 0x000001D21E9FA080
+[2017.04.22-04.11.51:850][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2017.04.22-04.11.51:851][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F61B200 with Material 0x000001D21F62A380 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:860][  0]LogTemp:Display: Kicking off shader compilation for CustomDepthWorldUnits, GameThreadShaderMap 0x000001D21F61B200
+[2017.04.22-04.11.51:864][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2017.04.22-04.11.51:865][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F59F900 with Material 0x000001D21F628700 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:873][  0]LogTemp:Display: Kicking off shader compilation for SceneDepthWorldUnits, GameThreadShaderMap 0x000001D21F59F900
+[2017.04.22-04.11.51:877][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2017.04.22-04.11.51:879][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F54AE80 with Material 0x000001D21F59A500 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:887][  0]LogTemp:Display: Kicking off shader compilation for PreTonemapHDRColor, GameThreadShaderMap 0x000001D21F54AE80
+[2017.04.22-04.11.51:892][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2017.04.22-04.11.51:893][  0]LogTemp:Display: Added material ShaderMap 0x000001D220236E80 with Material 0x000001D21F598A00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.51:901][  0]LogTemp:Display: Kicking off shader compilation for PostTonemapHDRColor, GameThreadShaderMap 0x000001D220236E80
+[2017.04.22-04.11.52:492][  0]SourceControl: Info Source control is disabled
+[2017.04.22-04.11.52:575][  0]SourceControl: Info Source control is disabled
+[2017.04.22-04.11.52:659][  0]SourceControl: Info Source control is disabled
+[2017.04.22-04.11.52:741][  0]SourceControl: Info Source control is disabled
+[2017.04.22-04.11.55:026][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.04.22-04.11.55:027][  0]LogTemp:Display: Added material ShaderMap 0x000001D21FC52400 with Material 0x000001D218C4DA80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.55:040][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshot, GameThreadShaderMap 0x000001D21FC52400
+[2017.04.22-04.11.55:049][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.04.22-04.11.55:050][  0]LogTemp:Display: Added material ShaderMap 0x000001D218B8F900 with Material 0x000001D218B93880 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.55:065][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshotMask, GameThreadShaderMap 0x000001D218B8F900
+[2017.04.22-04.11.55:075][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.04.22-04.11.55:077][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F9D1280 with Material 0x000001D218B91A80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.55:086][  0]LogTemp:Display: Kicking off shader compilation for HighResScreenshotCaptureRegion, GameThreadShaderMap 0x000001D21F9D1280
+[2017.04.22-04.11.55:123][  0]LogEngine: Initializing Engine...
+[2017.04.22-04.11.55:123][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.22-04.11.55:130][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.04.22-04.11.55:131][  0]LogTemp:Display: Added material ShaderMap 0x000001D21F958800 with Material 0x000001D21F96E200 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.55:392][  0]LogTemp:Display: Kicking off shader compilation for WireframeMaterial, GameThreadShaderMap 0x000001D21F958800
+[2017.04.22-04.11.55:399][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.04.22-04.11.55:400][  0]LogTemp:Display: Added material ShaderMap 0x000001D2225B4B80 with Material 0x000001D22257FB80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.56:084][  0]LogTemp:Display: Kicking off shader compilation for LevelColorationLitMaterial, GameThreadShaderMap 0x000001D2225B4B80
+[2017.04.22-04.11.56:089][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.04.22-04.11.56:090][  0]LogTemp:Display: Added material ShaderMap 0x000001D22929AB00 with Material 0x000001D226640B80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.56:300][  0]LogTemp:Display: Kicking off shader compilation for LevelColorationUnlitMaterial, GameThreadShaderMap 0x000001D22929AB00
+[2017.04.22-04.11.56:310][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.04.22-04.11.56:311][  0]LogTemp:Display: Added material ShaderMap 0x000001D22994C480 with Material 0x000001D22992AF80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.57:122][  0]LogTemp:Display: Kicking off shader compilation for MAT_LevelColorationLitLightmapUV, GameThreadShaderMap 0x000001D22994C480
+[2017.04.22-04.11.57:138][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.04.22-04.11.57:139][  0]LogTemp:Display: Added material ShaderMap 0x000001D22FCF9600 with Material 0x000001D22DE50580 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.57:882][  0]LogTemp:Display: Kicking off shader compilation for ShadedLevelColorationLitMaterial, GameThreadShaderMap 0x000001D22FCF9600
+[2017.04.22-04.11.57:889][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.04.22-04.11.57:891][  0]LogTemp:Display: Added material ShaderMap 0x000001D235E4EE80 with Material 0x000001D2341E4E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:114][  0]LogTemp:Display: Kicking off shader compilation for ShadedLevelColorationUnlitMateri, GameThreadShaderMap 0x000001D235E4EE80
+[2017.04.22-04.11.58:120][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.04.22-04.11.58:122][  0]LogTemp:Display: Added material ShaderMap 0x000001D23823DD00 with Material 0x000001D238217E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:181][  0]LogTemp:Display: Kicking off shader compilation for VertexColorMaterial, GameThreadShaderMap 0x000001D23823DD00
+[2017.04.22-04.11.58:185][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2017.04.22-04.11.58:186][  0]LogTemp:Display: Added material ShaderMap 0x000001D237A99D00 with Material 0x000001D238216500 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:201][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_ColorOnly, GameThreadShaderMap 0x000001D237A99D00
+[2017.04.22-04.11.58:205][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2017.04.22-04.11.58:206][  0]LogTemp:Display: Added material ShaderMap 0x000001D2379BF900 with Material 0x000001D238214E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:221][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_AlphaAsColor, GameThreadShaderMap 0x000001D2379BF900
+[2017.04.22-04.11.58:224][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2017.04.22-04.11.58:225][  0]LogTemp:Display: Added material ShaderMap 0x000001D23793D280 with Material 0x000001D238686F80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:241][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_RedOnly, GameThreadShaderMap 0x000001D23793D280
+[2017.04.22-04.11.58:245][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2017.04.22-04.11.58:246][  0]LogTemp:Display: Added material ShaderMap 0x000001D2385DEB00 with Material 0x000001D238685780 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:260][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_GreenOnly, GameThreadShaderMap 0x000001D2385DEB00
+[2017.04.22-04.11.58:264][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2017.04.22-04.11.58:265][  0]LogTemp:Display: Added material ShaderMap 0x000001D23857C480 with Material 0x000001D238684100 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:279][  0]LogTemp:Display: Kicking off shader compilation for VertexColorViewMode_BlueOnly, GameThreadShaderMap 0x000001D23857C480
+[2017.04.22-04.11.58:282][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2017.04.22-04.11.58:284][  0]LogTemp:Display: Added material ShaderMap 0x000001D239222400 with Material 0x000001D239296980 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:290][  0]LogTemp:Display: Kicking off shader compilation for RemoveSurfaceMaterial, GameThreadShaderMap 0x000001D239222400
+[2017.04.22-04.11.58:294][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2017.04.22-04.11.58:295][  0]LogTemp:Display: Added material ShaderMap 0x000001D2391B3580 with Material 0x000001D239295480 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:309][  0]LogTemp:Display: Kicking off shader compilation for DebugMeshMaterial, GameThreadShaderMap 0x000001D2391B3580
+[2017.04.22-04.11.58:315][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2017.04.22-04.11.58:316][  0]LogTemp:Display: Added material ShaderMap 0x000001D239134B80 with Material 0x000001D238E56E00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:358][  0]LogTemp:Display: Kicking off shader compilation for M_InvalidLightmapSettings, GameThreadShaderMap 0x000001D239134B80
+[2017.04.22-04.11.58:363][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2017.04.22-04.11.58:364][  0]LogTemp:Display: Added material ShaderMap 0x000001D2389C6080 with Material 0x000001D238E55600 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:378][  0]LogTemp:Display: Kicking off shader compilation for GizmoMaterial, GameThreadShaderMap 0x000001D2389C6080
+[2017.04.22-04.11.58:385][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2017.04.22-04.11.58:386][  0]LogTemp:Display: Added material ShaderMap 0x000001D2388F7C80 with Material 0x000001D2388FBA00 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:401][  0]LogTemp:Display: Kicking off shader compilation for PhAT_JointLimitMaterial, GameThreadShaderMap 0x000001D2388F7C80
+[2017.04.22-04.11.58:405][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2017.04.22-04.11.58:407][  0]LogTemp:Display: Added material ShaderMap 0x000001D239620B80 with Material 0x000001D2395DFE80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:419][  0]LogTemp:Display: Kicking off shader compilation for GeomMaterial, GameThreadShaderMap 0x000001D239620B80
+[2017.04.22-04.11.58:422][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2017.04.22-04.11.58:424][  0]LogTemp:Display: Added material ShaderMap 0x000001D239546E80 with Material 0x000001D2395DE380 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:437][  0]LogTemp:Display: Kicking off shader compilation for EditorBrushMaterial, GameThreadShaderMap 0x000001D239546E80
+[2017.04.22-04.11.58:444][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2017.04.22-04.11.58:445][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A25CF00 with Material 0x000001D2395DCB80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:551][  0]LogTemp:Display: Kicking off shader compilation for BoneWeightMaterial, GameThreadShaderMap 0x000001D23A25CF00
+[2017.04.22-04.11.58:557][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2017.04.22-04.11.58:559][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A5A5D00 with Material 0x000001D2398FCB80 to ShaderMapsBeingCompiled
+[2017.04.22-04.11.58:577][  0]LogTemp:Display: Kicking off shader compilation for PreviewShadowIndicatorMaterial, GameThreadShaderMap 0x000001D23A5A5D00
+[2017.04.22-04.11.58:820][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.22-04.11.58:853][  0]LogInit: XAudio2 using 'DELL S2715H-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.22-04.11.58:886][  0]LogInit: FAudioDevice initialized.
+[2017.04.22-04.11.58:917][  0]LogDerivedDataCache: Saved boot cache 0.03s 52MB C:/Users/amarz/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.22-04.11.58:931][  0]LogInit: Texture streaming: Enabled
+[2017.04.22-04.11.59:099][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.22-04.11.59:269][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.22-04.11.59:363][  0]LogInit: Transaction tracking system initialized
+[2017.04.22-04.12.00:029][  0]BlueprintLog: New page: Editor Load
+[2017.04.22-04.12.01:653][  0]LocalizationService: Info Localization service is disabled
+[2017.04.22-04.12.02:944][  0]LogConsoleResponse:Display: 
+[2017.04.22-04.12.02:995][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2017.04.22-04.12.02:996][  0]LogTemp:Display: Added material ShaderMap 0x000001D23AC63580 with Material 0x000001D23AC36C80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:016][  0]LogTemp:Display: Kicking off shader compilation for Cross_Mat, GameThreadShaderMap 0x000001D23AC63580
+[2017.04.22-04.12.03:019][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2017.04.22-04.12.03:021][  0]LogTemp:Display: Added material ShaderMap 0x000001D23AA6AB00 with Material 0x000001D23AC35600 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:032][  0]LogTemp:Display: Kicking off shader compilation for PhAT_BoneSelectedMaterial, GameThreadShaderMap 0x000001D23AA6AB00
+[2017.04.22-04.12.03:035][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2017.04.22-04.12.03:036][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A9E9600 with Material 0x000001D23A9ABE80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:048][  0]LogTemp:Display: Kicking off shader compilation for PhAT_ElemSelectedMaterial, GameThreadShaderMap 0x000001D23A9E9600
+[2017.04.22-04.12.03:051][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2017.04.22-04.12.03:053][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A978100 with Material 0x000001D23A9AA680 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:064][  0]LogTemp:Display: Kicking off shader compilation for PhAT_NoCollisionMaterial, GameThreadShaderMap 0x000001D23A978100
+[2017.04.22-04.12.03:068][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2017.04.22-04.12.03:069][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A872B00 with Material 0x000001D23A9A9000 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:081][  0]LogTemp:Display: Kicking off shader compilation for PhAT_UnselectedMaterial, GameThreadShaderMap 0x000001D23A872B00
+[2017.04.22-04.12.03:086][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2017.04.22-04.12.03:087][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A801280 with Material 0x000001D23A7B2F80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:106][  0]LogTemp:Display: Kicking off shader compilation for Tick_Mat, GameThreadShaderMap 0x000001D23A801280
+[2017.04.22-04.12.03:113][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2017.04.22-04.12.03:114][  0]LogTemp:Display: Added material ShaderMap 0x000001D23A6C8480 with Material 0x000001D23A7B1300 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:126][  0]LogTemp:Display: Kicking off shader compilation for WidgetGridVertexColorMaterial_Ma, GameThreadShaderMap 0x000001D23A6C8480
+[2017.04.22-04.12.03:129][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2017.04.22-04.12.03:130][  0]LogTemp:Display: Added material ShaderMap 0x000001D27B2F0F00 with Material 0x000001D27B3B7880 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:142][  0]LogTemp:Display: Kicking off shader compilation for WidgetMaterial, GameThreadShaderMap 0x000001D27B2F0F00
+[2017.04.22-04.12.03:147][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2017.04.22-04.12.03:148][  0]LogTemp:Display: Added material ShaderMap 0x000001D277074480 with Material 0x000001D27B3B6080 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:161][  0]LogTemp:Display: Kicking off shader compilation for WidgetMaterial_Current, GameThreadShaderMap 0x000001D277074480
+[2017.04.22-04.12.03:165][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2017.04.22-04.12.03:166][  0]LogTemp:Display: Added material ShaderMap 0x000001D23EE0EB00 with Material 0x000001D27B3B4B80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:178][  0]LogTemp:Display: Kicking off shader compilation for WidgetMaterial_X, GameThreadShaderMap 0x000001D23EE0EB00
+[2017.04.22-04.12.03:182][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2017.04.22-04.12.03:183][  0]LogTemp:Display: Added material ShaderMap 0x000001D23ED85280 with Material 0x000001D23ED32F80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:195][  0]LogTemp:Display: Kicking off shader compilation for WidgetMaterial_Y, GameThreadShaderMap 0x000001D23ED85280
+[2017.04.22-04.12.03:198][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2017.04.22-04.12.03:200][  0]LogTemp:Display: Added material ShaderMap 0x000001D23F9FFC80 with Material 0x000001D23ED31600 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:213][  0]LogTemp:Display: Kicking off shader compilation for WidgetMaterial_Z, GameThreadShaderMap 0x000001D23F9FFC80
+[2017.04.22-04.12.03:216][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2017.04.22-04.12.03:218][  0]LogTemp:Display: Added material ShaderMap 0x000001D23F976400 with Material 0x000001D23F947E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:233][  0]LogTemp:Display: Kicking off shader compilation for WidgetVertexColorMaterial, GameThreadShaderMap 0x000001D23F976400
+[2017.04.22-04.12.03:262][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2017.04.22-04.12.03:266][  0]LogTemp:Display: Added material ShaderMap 0x000001D23F601280 with Material 0x000001D23F5BA800 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:288][  0]LogTemp:Display: Kicking off shader compilation for LevelGridMaterial, GameThreadShaderMap 0x000001D23F601280
+[2017.04.22-04.12.03:308][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.04.22-04.12.03:309][  0]LogTemp:Display: Added material ShaderMap 0x000001D23F210100 with Material 0x000001D23F579A80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:321][  0]LogTemp:Display: Kicking off shader compilation for BlinkingCaret, GameThreadShaderMap 0x000001D23F210100
+[2017.04.22-04.12.03:339][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2017.04.22-04.12.03:340][  0]LogTemp:Display: Added material ShaderMap 0x000001D240222B00 with Material 0x000001D23F5B8E80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.03:350][  0]LogTemp:Display: Kicking off shader compilation for M_StreamingPause, GameThreadShaderMap 0x000001D240222B00
+[2017.04.22-04.12.03:377][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.22-04.12.03:377][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.22-04.12.03:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/' took 0.01s
+[2017.04.22-04.12.05:231][  0]SourceControl: Info Source control is disabled
+[2017.04.22-04.12.05:243][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.15/FeaturePacks/StarterContent.upack)
+[2017.04.22-04.12.05:262][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.04.22-04.12.05:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.04.22-04.12.05:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.04.22-04.12.05:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.04.22-04.12.05:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.04.22-04.12.05:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.04.22-04.12.05:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.04.22-04.12.05:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.04.22-04.12.05:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.04.22-04.12.05:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.04.22-04.12.05:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.04.22-04.12.05:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.04.22-04.12.05:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.04.22-04.12.05:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.04.22-04.12.05:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.04.22-04.12.05:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.04.22-04.12.05:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.04.22-04.12.05:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.04.22-04.12.05:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Fire01.uasset"
+[2017.04.22-04.12.05:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.04.22-04.12.05:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.04.22-04.12.05:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.04.22-04.12.05:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Light01.uasset"
+[2017.04.22-04.12.05:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.04.22-04.12.05:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Light02.uasset"
+[2017.04.22-04.12.05:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.04.22-04.12.05:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.04.22-04.12.05:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.04.22-04.12.05:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.04.22-04.12.05:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.04.22-04.12.05:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.04.22-04.12.05:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.04.22-04.12.05:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.04.22-04.12.05:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.04.22-04.12.05:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Steam01.uasset"
+[2017.04.22-04.12.05:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.04.22-04.12.05:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.04.22-04.12.05:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.04.22-04.12.05:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.04.22-04.12.05:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.04.22-04.12.05:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.04.22-04.12.05:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.04.22-04.12.05:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.04.22-04.12.05:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.04.22-04.12.05:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.04.22-04.12.05:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.04.22-04.12.05:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.04.22-04.12.05:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.04.22-04.12.05:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.04.22-04.12.05:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.04.22-04.12.05:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.04.22-04.12.05:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.04.22-04.12.05:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.04.22-04.12.05:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.04.22-04.12.05:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.04.22-04.12.06:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.04.22-04.12.06:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.04.22-04.12.06:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/StarterMap.umap"
+[2017.04.22-04.12.06:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.04.22-04.12.06:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.04.22-04.12.06:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.04.22-04.12.06:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.04.22-04.12.06:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.04.22-04.12.06:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.04.22-04.12.06:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.04.22-04.12.06:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.04.22-04.12.06:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.04.22-04.12.06:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.04.22-04.12.06:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.04.22-04.12.06:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.04.22-04.12.06:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.04.22-04.12.06:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.04.22-04.12.06:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.04.22-04.12.06:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.04.22-04.12.06:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.04.22-04.12.06:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.04.22-04.12.06:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.04.22-04.12.06:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.04.22-04.12.06:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.04.22-04.12.06:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.04.22-04.12.06:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.04.22-04.12.06:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.04.22-04.12.06:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.04.22-04.12.06:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.04.22-04.12.06:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.04.22-04.12.06:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.04.22-04.12.06:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.04.22-04.12.06:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.04.22-04.12.06:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.04.22-04.12.06:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.04.22-04.12.06:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.04.22-04.12.06:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.04.22-04.12.06:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.04.22-04.12.06:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.04.22-04.12.06:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.04.22-04.12.06:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.04.22-04.12.06:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.04.22-04.12.06:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.04.22-04.12.06:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.04.22-04.12.06:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.04.22-04.12.06:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.04.22-04.12.06:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.04.22-04.12.06:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.04.22-04.12.06:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.04.22-04.12.06:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.04.22-04.12.06:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.04.22-04.12.06:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.04.22-04.12.06:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.04.22-04.12.06:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.04.22-04.12.06:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.04.22-04.12.06:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.04.22-04.12.06:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.04.22-04.12.06:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.04.22-04.12.06:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.04.22-04.12.06:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.04.22-04.12.06:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.04.22-04.12.06:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.04.22-04.12.06:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.04.22-04.12.06:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.04.22-04.12.06:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.04.22-04.12.06:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.04.22-04.12.06:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.04.22-04.12.06:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.04.22-04.12.06:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Door.uasset"
+[2017.04.22-04.12.06:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.04.22-04.12.06:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.04.22-04.12.06:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.04.22-04.12.06:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.04.22-04.12.06:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.04.22-04.12.06:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.04.22-04.12.06:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.04.22-04.12.06:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.04.22-04.12.06:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.04.22-04.12.06:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.04.22-04.12.06:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.04.22-04.12.06:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.04.22-04.12.07:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.04.22-04.12.07:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.04.22-04.12.07:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.04.22-04.12.07:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.04.22-04.12.07:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.04.22-04.12.07:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.04.22-04.12.07:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.04.22-04.12.07:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.04.22-04.12.07:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.04.22-04.12.07:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.04.22-04.12.07:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.04.22-04.12.07:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.04.22-04.12.07:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.04.22-04.12.07:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.04.22-04.12.07:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.04.22-04.12.07:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.04.22-04.12.07:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.04.22-04.12.07:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.04.22-04.12.07:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.04.22-04.12.07:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.04.22-04.12.07:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.04.22-04.12.07:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.04.22-04.12.07:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.04.22-04.12.07:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.04.22-04.12.07:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.04.22-04.12.07:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.04.22-04.12.07:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.04.22-04.12.07:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.04.22-04.12.07:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.04.22-04.12.07:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.04.22-04.12.07:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.04.22-04.12.07:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.04.22-04.12.07:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.04.22-04.12.07:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.04.22-04.12.07:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.04.22-04.12.07:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.04.22-04.12.07:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.04.22-04.12.07:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.04.22-04.12.07:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.04.22-04.12.07:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.04.22-04.12.07:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.04.22-04.12.07:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.04.22-04.12.07:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.04.22-04.12.07:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.04.22-04.12.07:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.04.22-04.12.07:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.04.22-04.12.07:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.04.22-04.12.07:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.04.22-04.12.07:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.04.22-04.12.07:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.04.22-04.12.07:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.04.22-04.12.07:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.04.22-04.12.07:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.04.22-04.12.07:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.04.22-04.12.07:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.04.22-04.12.07:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.04.22-04.12.07:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.04.22-04.12.07:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.04.22-04.12.07:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.04.22-04.12.07:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.04.22-04.12.07:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.04.22-04.12.07:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.04.22-04.12.07:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.04.22-04.12.08:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.04.22-04.12.08:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.04.22-04.12.08:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.04.22-04.12.08:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.04.22-04.12.08:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.04.22-04.12.08:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.04.22-04.12.08:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.04.22-04.12.08:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.04.22-04.12.08:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.04.22-04.12.08:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.04.22-04.12.08:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.04.22-04.12.08:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.04.22-04.12.08:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.04.22-04.12.08:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.04.22-04.12.08:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.04.22-04.12.08:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.04.22-04.12.08:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.04.22-04.12.08:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.04.22-04.12.08:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.04.22-04.12.08:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.04.22-04.12.08:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.04.22-04.12.08:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.04.22-04.12.08:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.04.22-04.12.08:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.04.22-04.12.08:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.04.22-04.12.08:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.04.22-04.12.08:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.04.22-04.12.08:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.04.22-04.12.08:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.04.22-04.12.08:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.04.22-04.12.08:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.04.22-04.12.08:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.04.22-04.12.08:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.04.22-04.12.08:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.04.22-04.12.08:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.04.22-04.12.08:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.04.22-04.12.08:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.04.22-04.12.08:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.04.22-04.12.08:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.04.22-04.12.08:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.04.22-04.12.08:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.04.22-04.12.08:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.04.22-04.12.08:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.04.22-04.12.08:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.04.22-04.12.08:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.04.22-04.12.08:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.04.22-04.12.08:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.04.22-04.12.08:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.04.22-04.12.08:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.04.22-04.12.08:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.04.22-04.12.08:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.04.22-04.12.08:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.04.22-04.12.08:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.04.22-04.12.09:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.04.22-04.12.09:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.04.22-04.12.09:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.04.22-04.12.09:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.04.22-04.12.09:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.04.22-04.12.09:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.04.22-04.12.09:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.04.22-04.12.09:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.04.22-04.12.09:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.04.22-04.12.09:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.04.22-04.12.09:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.04.22-04.12.09:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.04.22-04.12.09:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.04.22-04.12.09:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.04.22-04.12.09:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.04.22-04.12.09:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.04.22-04.12.09:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.04.22-04.12.09:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.04.22-04.12.09:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.04.22-04.12.09:309][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.04.22-04.12.09:310][  0]LogTemp:Display: Added material ShaderMap 0x000001D24009A080 with Material 0x000001D240EA6080 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.09:342][  0]LogTemp:Display: Kicking off shader compilation for M_Basic_Floor, GameThreadShaderMap 0x000001D24009A080
+[2017.04.22-04.12.09:801][  0]LogTemp:Display: Finished compile of shader map 0x000001D209EE8100
+[2017.04.22-04.12.09:801][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D209EE8100, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:801][  0]LogTemp:Display: Marking material as finished 0x000001D209C39000
+[2017.04.22-04.12.09:802][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D209EE8100, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:802][  0]LogTemp:Display: Marking material as finished 0x000001D20DFF0700
+[2017.04.22-04.12.09:806][  0]LogTemp:Display: Finished compile of shader map 0x000001D209E41280
+[2017.04.22-04.12.09:806][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D209E41280, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:806][  0]LogTemp:Display: Marking material as finished 0x000001D209C65C00
+[2017.04.22-04.12.09:810][  0]LogTemp:Display: Finished compile of shader map 0x000001D20AC28F00
+[2017.04.22-04.12.09:810][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D20AC28F00, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:810][  0]LogTemp:Display: Marking material as finished 0x000001D20DFF2C80
+[2017.04.22-04.12.09:815][  0]LogTemp:Display: Finished compile of shader map 0x000001D20A887900
+[2017.04.22-04.12.09:815][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D20A887900, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:815][  0]LogTemp:Display: Marking material as finished 0x000001D20A3CB880
+[2017.04.22-04.12.09:820][  0]LogTemp:Display: Finished compile of shader map 0x000001D20B413200
+[2017.04.22-04.12.09:820][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D20B413200, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:820][  0]LogTemp:Display: Marking material as finished 0x000001D20A3C9A80
+[2017.04.22-04.12.09:825][  0]LogTemp:Display: Finished compile of shader map 0x000001D20CC65280
+[2017.04.22-04.12.09:825][  0]LogTemp:Display: Shader map Widget3DPassThrough complete, GameThreadShaderMap 0x000001D20CC65280, marking material Widget3DPassThrough as finished
+[2017.04.22-04.12.09:825][  0]LogTemp:Display: Marking material as finished 0x000001D20D783E80
+[2017.04.22-04.12.09:839][  0]LogTemp:Display: Finished compile of shader map 0x000001D210BDD600
+[2017.04.22-04.12.09:839][  0]LogTemp:Display: Shader map M_ContentWindow complete, GameThreadShaderMap 0x000001D210BDD600, marking material M_ContentWindow as finished
+[2017.04.22-04.12.09:839][  0]LogTemp:Display: Marking material as finished 0x000001D20D781780
+[2017.04.22-04.12.09:847][  0]LogTemp:Display: Finished compile of shader map 0x000001D20B091600
+[2017.04.22-04.12.09:847][  0]LogTemp:Display: Shader map TranslucentTransformGizmoMaterial complete, GameThreadShaderMap 0x000001D20B091600, marking material TranslucentTransformGizmoMaterial as finished
+[2017.04.22-04.12.09:847][  0]LogTemp:Display: Marking material as finished 0x000001D211C90A00
+[2017.04.22-04.12.09:852][  0]LogTemp:Display: Finished compile of shader map 0x000001D20C893900
+[2017.04.22-04.12.09:852][  0]LogTemp:Display: Shader map TransformGizmoMaterial complete, GameThreadShaderMap 0x000001D20C893900, marking material TransformGizmoMaterial as finished
+[2017.04.22-04.12.09:852][  0]LogTemp:Display: Marking material as finished 0x000001D20B07AC80
+[2017.04.22-04.12.09:856][  0]LogTemp:Display: Finished compile of shader map 0x000001D20C890480
+[2017.04.22-04.12.09:856][  0]LogTemp:Display: Shader map LineMaterial complete, GameThreadShaderMap 0x000001D20C890480, marking material LineMaterial as finished
+[2017.04.22-04.12.09:856][  0]LogTemp:Display: Marking material as finished 0x000001D20A76B880
+[2017.04.22-04.12.09:865][  0]LogTemp:Display: Finished compile of shader map 0x000001D20EC9F200
+[2017.04.22-04.12.09:865][  0]LogTemp:Display: Shader map VRTextMaterial complete, GameThreadShaderMap 0x000001D20EC9F200, marking material VRTextMaterial as finished
+[2017.04.22-04.12.09:865][  0]LogTemp:Display: Marking material as finished 0x000001D20A768B80
+[2017.04.22-04.12.09:875][  0]LogTemp:Display: Finished compile of shader map 0x000001D20CB8E080
+[2017.04.22-04.12.09:875][  0]LogTemp:Display: Shader map VRTextMaterial complete, GameThreadShaderMap 0x000001D20CB8E080, marking material VRTextMaterial as finished
+[2017.04.22-04.12.09:875][  0]LogTemp:Display: Marking material as finished 0x000001D20ECA2500
+[2017.04.22-04.12.09:890][  0]LogTemp:Display: Finished compile of shader map 0x000001D20E498800
+[2017.04.22-04.12.09:890][  0]LogTemp:Display: Shader map DefaultTextMaterialOpaque complete, GameThreadShaderMap 0x000001D20E498800, marking material DefaultTextMaterialOpaque as finished
+[2017.04.22-04.12.09:890][  0]LogTemp:Display: Marking material as finished 0x000001D20ECA0D00
+[2017.04.22-04.12.09:900][  0]LogTemp:Display: Finished compile of shader map 0x000001D20DC9B580
+[2017.04.22-04.12.09:901][  0]LogTemp:Display: Shader map GenericHMDMaterial complete, GameThreadShaderMap 0x000001D20DC9B580, marking material GenericHMDMaterial as finished
+[2017.04.22-04.12.09:901][  0]LogTemp:Display: Marking material as finished 0x000001D20B024D00
+[2017.04.22-04.12.09:906][  0]LogTemp:Display: Finished compile of shader map 0x000001D20D0A9980
+[2017.04.22-04.12.09:906][  0]LogTemp:Display: Shader map FlattenHeightMat complete, GameThreadShaderMap 0x000001D20D0A9980, marking material FlattenHeightMat as finished
+[2017.04.22-04.12.09:906][  0]LogTemp:Display: Marking material as finished 0x000001D20A4ABB80
+[2017.04.22-04.12.09:910][  0]LogTemp:Display: Finished compile of shader map 0x000001D20A38A400
+[2017.04.22-04.12.09:910][  0]LogTemp:Display: Shader map GridMaterial complete, GameThreadShaderMap 0x000001D20A38A400, marking material GridMaterial as finished
+[2017.04.22-04.12.09:910][  0]LogTemp:Display: Marking material as finished 0x000001D20A4A8A00
+[2017.04.22-04.12.09:917][  0]LogTemp:Display: Finished compile of shader map 0x000001D20E3B0800
+[2017.04.22-04.12.09:918][  0]LogTemp:Display: Shader map LaserPointerMaterial complete, GameThreadShaderMap 0x000001D20E3B0800, marking material LaserPointerMaterial as finished
+[2017.04.22-04.12.09:918][  0]LogTemp:Display: Marking material as finished 0x000001D20A371600
+[2017.04.22-04.12.09:926][  0]LogTemp:Display: Finished compile of shader map 0x000001D20B75A780
+[2017.04.22-04.12.09:926][  0]LogTemp:Display: Shader map LaserPointerMaterial complete, GameThreadShaderMap 0x000001D20B75A780, marking material LaserPointerMaterial as finished
+[2017.04.22-04.12.09:926][  0]LogTemp:Display: Marking material as finished 0x000001D20B7ECB80
+[2017.04.22-04.12.09:930][  0]LogTemp:Display: Finished compile of shader map 0x000001D20EBD8800
+[2017.04.22-04.12.09:930][  0]LogTemp:Display: Shader map GridPostProcess complete, GameThreadShaderMap 0x000001D20EBD8800, marking material GridPostProcess as finished
+[2017.04.22-04.12.09:930][  0]LogTemp:Display: Marking material as finished 0x000001D20EB90E80
+[2017.04.22-04.12.09:943][  0]LogTemp:Display: Finished compile of shader map 0x000001D20D452E80
+[2017.04.22-04.12.09:943][  0]LogTemp:Display: Shader map CineMat complete, GameThreadShaderMap 0x000001D20D452E80, marking material CineMat as finished
+[2017.04.22-04.12.09:943][  0]LogTemp:Display: Marking material as finished 0x000001D20D446F80
+[2017.04.22-04.12.09:953][  0]LogTemp:Display: Finished compile of shader map 0x000001D2120B2400
+[2017.04.22-04.12.09:953][  0]LogTemp:Display: Shader map MatineeCam_mat complete, GameThreadShaderMap 0x000001D2120B2400, marking material MatineeCam_mat as finished
+[2017.04.22-04.12.09:953][  0]LogTemp:Display: Marking material as finished 0x000001D21209AB00
+[2017.04.22-04.12.09:961][  0]LogTemp:Display: Finished compile of shader map 0x000001D211FB4100
+[2017.04.22-04.12.09:961][  0]LogTemp:Display: Shader map M_SimpleOpaque complete, GameThreadShaderMap 0x000001D211FB4100, marking material M_SimpleOpaque as finished
+[2017.04.22-04.12.09:961][  0]LogTemp:Display: Marking material as finished 0x000001D211F46E00
+[2017.04.22-04.12.09:971][  0]LogTemp:Display: Finished compile of shader map 0x000001D212C71D00
+[2017.04.22-04.12.09:971][  0]LogTemp:Display: Shader map M_SimpleTranslucent complete, GameThreadShaderMap 0x000001D212C71D00, marking material M_SimpleTranslucent as finished
+[2017.04.22-04.12.09:971][  0]LogTemp:Display: Marking material as finished 0x000001D211F44700
+[2017.04.22-04.12.09:974][  0]LogTemp:Display: Finished compile of shader map 0x000001D21289D280
+[2017.04.22-04.12.09:974][  0]LogTemp:Display: Shader map SkySphereMaterial complete, GameThreadShaderMap 0x000001D21289D280, marking material SkySphereMaterial as finished
+[2017.04.22-04.12.09:974][  0]LogTemp:Display: Marking material as finished 0x000001D214699A80
+[2017.04.22-04.12.09:987][  0]LogTemp:Display: Finished compile of shader map 0x000001D2147BDD00
+[2017.04.22-04.12.09:987][  0]LogTemp:Display: Shader map FloorPlaneMaterial complete, GameThreadShaderMap 0x000001D2147BDD00, marking material FloorPlaneMaterial as finished
+[2017.04.22-04.12.09:987][  0]LogTemp:Display: Marking material as finished 0x000001D214698880
+[2017.04.22-04.12.09:994][  0]LogTemp:Display: Finished compile of shader map 0x000001D213CB2400
+[2017.04.22-04.12.09:994][  0]LogTemp:Display: Shader map LandscapeGizmo_Mat complete, GameThreadShaderMap 0x000001D213CB2400, marking material LandscapeGizmo_Mat as finished
+[2017.04.22-04.12.09:994][  0]LogTemp:Display: Marking material as finished 0x000001D2147E4E80
+[2017.04.22-04.12.09:995][  0]LogTemp:Display: Shader map LandscapeGizmo_Mat complete, GameThreadShaderMap 0x000001D213CB2400, marking material LandscapeGizmo_Mat as finished
+[2017.04.22-04.12.09:995][  0]LogTemp:Display: Marking material as finished 0x000001D21278A980
+[2017.04.22-04.12.10:109][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.04.22-04.12.10:316][  0]LogSavePackage: Save=24.80ms
+[2017.04.22-04.12.10:316][  0]LogSavePackage: Moving '../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Saved/Floor_400x4008D90664A48D86104722E778EF18953D6.tmp' to '../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.04.22-04.12.10:325][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.04.22-04.12.10:325][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.04.22-04.12.10:332][  0]Cmd: MAP LOAD FILE="../../../../../../Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.22-04.12.10:333][  0]LightingResults: New page: Lighting Build
+[2017.04.22-04.12.10:404][  0]MapCheck: New page: Map Check
+[2017.04.22-04.12.10:404][  0]LightingResults: New page: Lighting Build
+[2017.04.22-04.12.11:836][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT, 512X512) - 45 MB total VRAM
+[2017.04.22-04.12.12:079][  0]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5, 512X512) - 45 MB total VRAM
+[2017.04.22-04.12.12:125][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2017.04.22-04.12.12:126][  0]LogTemp:Display: Added material ShaderMap 0x000001D210B7C100 with Material 0x000001D20FC95A80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.12:160][  0]LogTemp:Display: Kicking off shader compilation for CubeMaterial, GameThreadShaderMap 0x000001D210B7C100
+[2017.04.22-04.12.12:168][  0]LogStaticMesh: Building static mesh CubeMesh...
+[2017.04.22-04.12.12:173][  0]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Meshes/CubeMesh.CubeMesh
+[2017.04.22-04.12.12:195][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512) - 46 MB total VRAM
+[2017.04.22-04.12.12:240][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT, 512X512) - 46 MB total VRAM
+[2017.04.22-04.12.12:382][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512) - 46 MB total VRAM
+[2017.04.22-04.12.12:422][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024) - 46 MB total VRAM
+[2017.04.22-04.12.12:794][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048) - 46 MB total VRAM
+[2017.04.22-04.12.13:291][  0]LogTexture:Display: Building textures: UE4_Mannequin_occlusion (AutoDXT, 512X512) - 46 MB total VRAM
+[2017.04.22-04.12.13:421][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.22-04.12.13:425][  0]LogTemp:Display: Added material ShaderMap 0x000001D20B412780 with Material 0x000001D276C9E800 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.13:545][  0]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001D20B412780
+[2017.04.22-04.12.13:552][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.22-04.12.13:555][  0]LogTemp:Display: Added material ShaderMap 0x000001D203F45D00 with Material 0x000001D27FCEDD80 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.13:682][  0]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x000001D203F45D00
+[2017.04.22-04.12.13:698][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.04.22-04.12.13:700][  0]LogTemp:Display: Added material ShaderMap 0x000001D27B585980 with Material 0x000001D20E4A9180 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.13:706][  0]LogTemp:Display: Kicking off shader compilation for M_Sky_Panning_Clouds2, GameThreadShaderMap 0x000001D27B585980
+[2017.04.22-04.12.13:711][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonRun.ThirdPersonRun
+[2017.04.22-04.12.13:797][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2017.04.22-04.12.13:841][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/WallClimb.WallClimb
+[2017.04.22-04.12.13:848][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/slideplaceholder.slideplaceholder
+[2017.04.22-04.12.13:850][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2017.04.22-04.12.13:862][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2017.04.22-04.12.13:891][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/WallGrab.WallGrab
+[2017.04.22-04.12.13:893][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2017.04.22-04.12.13:915][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/WallClimbKnees.WallClimbKnees
+[2017.04.22-04.12.13:919][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/WallRun.WallRun
+[2017.04.22-04.12.14:138][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2017.04.22-04.12.14:291][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512) - 46 MB total VRAM
+[2017.04.22-04.12.14:324][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.14:360][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.14:399][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.14:708][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 4096X4096) - 54 MB total VRAM
+[2017.04.22-04.12.16:080][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.16:120][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 64X64) - 54 MB total VRAM
+[2017.04.22-04.12.16:124][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.16:144][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.16:161][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512) - 54 MB total VRAM
+[2017.04.22-04.12.16:181][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 512X512) - 55 MB total VRAM
+[2017.04.22-04.12.16:432][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 4096X4096) - 55 MB total VRAM
+[2017.04.22-04.12.17:386][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512) - 55 MB total VRAM
+[2017.04.22-04.12.17:404][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 64X64) - 55 MB total VRAM
+[2017.04.22-04.12.17:554][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 4096X2048) - 55 MB total VRAM
+[2017.04.22-04.12.18:343][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.18:362][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.18:383][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.18:422][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.18:443][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.18:491][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 64X32) - 55 MB total VRAM
+[2017.04.22-04.12.18:656][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 4096X2048) - 55 MB total VRAM
+[2017.04.22-04.12.19:391][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.19:410][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.19:418][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.19:428][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.19:438][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 512X256) - 55 MB total VRAM
+[2017.04.22-04.12.19:461][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 64X32) - 55 MB total VRAM
+[2017.04.22-04.12.19:464][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.22-04.12.19:470][  0]LogTemp:Display: Finished compile of shader map 0x000001D21CE27200
+[2017.04.22-04.12.19:470][  0]LogTemp:Display: Shader map DefaultSpriteMaterial complete, GameThreadShaderMap 0x000001D21CE27200, marking material DefaultSpriteMaterial as finished
+[2017.04.22-04.12.19:470][  0]LogTemp:Display: Marking material as finished 0x000001D21CE1B400
+[2017.04.22-04.12.19:477][  0]LogTemp:Display: Finished compile of shader map 0x000001D21CDD4100
+[2017.04.22-04.12.19:477][  0]LogTemp:Display: Shader map DefaultSpriteMaterial complete, GameThreadShaderMap 0x000001D21CDD4100, marking material DefaultSpriteMaterial as finished
+[2017.04.22-04.12.19:477][  0]LogTemp:Display: Marking material as finished 0x000001D21CDCD300
+[2017.04.22-04.12.19:503][  0]LogTemp:Display: Finished compile of shader map 0x000001D21C123580
+[2017.04.22-04.12.19:503][  0]LogTemp:Display: Shader map HelpActorMaterial complete, GameThreadShaderMap 0x000001D21C123580, marking material HelpActorMaterial as finished
+[2017.04.22-04.12.19:503][  0]LogTemp:Display: Marking material as finished 0x000001D21C140B80
+[2017.04.22-04.12.19:522][  0]LogTemp:Display: Finished compile of shader map 0x000001D21B313900
+[2017.04.22-04.12.19:522][  0]LogTemp:Display: Shader map SplineEditorMeshMat complete, GameThreadShaderMap 0x000001D21B313900, marking material SplineEditorMeshMat as finished
+[2017.04.22-04.12.19:522][  0]LogTemp:Display: Marking material as finished 0x000001D21C28FD00
+[2017.04.22-04.12.19:559][  0]LogTemp:Display: Finished compile of shader map 0x000001D2144B8480
+[2017.04.22-04.12.19:560][  0]LogTemp:Display: Shader map LandscapeGizmoHeight_Mat complete, GameThreadShaderMap 0x000001D2144B8480, marking material LandscapeGizmoHeight_Mat as finished
+[2017.04.22-04.12.19:560][  0]LogTemp:Display: Marking material as finished 0x000001D212789300
+[2017.04.22-04.12.19:566][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.22-04.12.19:587][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.22-04.12.19:601][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.22-04.12.19:714][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.234ms to complete.
+[2017.04.22-04.12.19:714][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.382
+[2017.04.22-04.12.19:716][  0]LogTemp:Display: Finished compile of shader map 0x000001D21DEB2780
+[2017.04.22-04.12.19:716][  0]LogTemp:Display: Shader map BaseColor complete, GameThreadShaderMap 0x000001D21DEB2780, marking material BaseColor as finished
+[2017.04.22-04.12.19:716][  0]LogTemp:Display: Marking material as finished 0x000001D21DE91000
+[2017.04.22-04.12.19:742][  0]LogTemp:Display: Finished compile of shader map 0x000001D21C9A6B00
+[2017.04.22-04.12.19:742][  0]LogTemp:Display: Shader map DefaultMaterial complete, GameThreadShaderMap 0x000001D21C9A6B00, marking material DefaultMaterial as finished
+[2017.04.22-04.12.19:742][  0]LogTemp:Display: Marking material as finished 0x000001D21C9BB880
+[2017.04.22-04.12.20:151][  0]LogCollectionManager: Loaded 0 collections in 0.002337 seconds
+[2017.04.22-04.12.20:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Saved/Collections/' took 0.01s
+[2017.04.22-04.12.20:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/Developers/amarz/Collections/' took 0.01s
+[2017.04.22-04.12.20:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/amarz/Downloads/LedgeGrab/LedgeGrabPart5 - Copy/std48/Content/Collections/' took 0.01s
+[2017.04.22-04.12.20:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2017.04.22-04.12.20:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2245 classes and 453 folders.
+[2017.04.22-04.12.20:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.22-04.12.20:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.22-04.12.20:473][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.04.22-04.12.20:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.22-04.12.21:057][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.04.22-04.12.21:348][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.22-04.12.23:401][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.04.22-04.12.23:463][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.22-04.12.23:679][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.04.22-04.12.23:680][  0]LogLoad: (Engine Initialization) Total time: 168.31 seconds
+[2017.04.22-04.12.23:680][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.93 seconds
+[2017.04.22-04.12.23:680][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.22-04.12.23:680][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.22-04.12.23:698][  0]LogOcInput: OculusInput pre-init called
+[2017.04.22-04.12.23:707][  0]LogTemp:Display: Finished compile of shader map 0x000001D21F210100
+[2017.04.22-04.12.23:707][  0]LogTemp:Display: Shader map SceneDepth complete, GameThreadShaderMap 0x000001D21F210100, marking material SceneDepth as finished
+[2017.04.22-04.12.23:707][  0]LogTemp:Display: Marking material as finished 0x000001D21F274280
+[2017.04.22-04.12.23:711][  0]LogTemp:Display: Finished compile of shader map 0x000001D21F213C80
+[2017.04.22-04.12.23:711][  0]LogTemp:Display: Shader map SceneColor complete, GameThreadShaderMap 0x000001D21F213C80, marking material SceneColor as finished
+[2017.04.22-04.12.23:711][  0]LogTemp:Display: Marking material as finished 0x000001D21F275C00
+[2017.04.22-04.12.23:715][  0]LogTemp:Display: Finished compile of shader map 0x000001D21F287580
+[2017.04.22-04.12.23:715][  0]LogTemp:Display: Shader map Roughness complete, GameThreadShaderMap 0x000001D21F287580, marking material Roughness as finished
+[2017.04.22-04.12.23:715][  0]LogTemp:Display: Marking material as finished 0x000001D21F277A00
+[2017.04.22-04.12.23:719][  0]LogTemp:Display: Finished compile of shader map 0x000001D21E58AE80
+[2017.04.22-04.12.23:719][  0]LogTemp:Display: Shader map Opacity complete, GameThreadShaderMap 0x000001D21E58AE80, marking material Opacity as finished
+[2017.04.22-04.12.23:719][  0]LogTemp:Display: Marking material as finished 0x000001D21E5ED480
+[2017.04.22-04.12.23:722][  0]LogTemp:Display: Finished compile of shader map 0x000001D21E612780
+[2017.04.22-04.12.23:722][  0]LogTemp:Display: Shader map Metallic complete, GameThreadShaderMap 0x000001D21E612780, marking material Metallic as finished
+[2017.04.22-04.12.23:722][  0]LogTemp:Display: Marking material as finished 0x000001D21E5EEF80
+[2017.04.22-04.12.23:726][  0]LogTemp:Display: Finished compile of shader map 0x000001D21E686080
+[2017.04.22-04.12.23:726][  0]LogTemp:Display: Shader map MaterialAO complete, GameThreadShaderMap 0x000001D21E686080, marking material MaterialAO as finished
+[2017.04.22-04.12.23:726][  0]LogTemp:Display: Marking material as finished 0x000001D21D99CE80
+[2017.04.22-04.12.23:730][  0]LogTemp:Display: Finished compile of shader map 0x000001D21D9C9980
+[2017.04.22-04.12.23:730][  0]LogTemp:Display: Shader map LightingModel complete, GameThreadShaderMap 0x000001D21D9C9980, marking material LightingModel as finished
+[2017.04.22-04.12.23:730][  0]LogTemp:Display: Marking material as finished 0x000001D21D99E800
+[2017.04.22-04.12.23:733][  0]LogTemp:Display: Finished compile of shader map 0x000001D21DA31280
+[2017.04.22-04.12.23:733][  0]LogTemp:Display: Shader map FinalImage complete, GameThreadShaderMap 0x000001D21DA31280, marking material FinalImage as finished
+[2017.04.22-04.12.23:733][  0]LogTemp:Display: Marking material as finished 0x000001D21DA64A00
+[2017.04.22-04.12.23:738][  0]LogTemp:Display: Finished compile of shader map 0x000001D21DD08F00
+[2017.04.22-04.12.23:738][  0]LogTemp:Display: Shader map CustomStencil complete, GameThreadShaderMap 0x000001D21DD08F00, marking material CustomStencil as finished
+[2017.04.22-04.12.23:738][  0]LogTemp:Display: Marking material as finished 0x000001D21DA88A00
+[2017.04.22-04.12.23:743][  0]LogTemp:Display: Finished compile of shader map 0x000001D21DD76B00
+[2017.04.22-04.12.23:743][  0]LogTemp:Display: Shader map CustomDepth complete, GameThreadShaderMap 0x000001D21DD76B00, marking material CustomDepth as finished
+[2017.04.22-04.12.23:743][  0]LogTemp:Display: Marking material as finished 0x000001D21DD6AF80
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.std48
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: BranchPath = DESKTOP-JPBMJ26/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-JPBMJ26/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\amarz\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.04.22-04.12.23:928][  0]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.04.22-04.12.23:928][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.22-04.12.23:937][  0]LogSlate: Took 0.006466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-04.12.23:949][  0]LogSlate: Took 0.006385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-04.12.23:966][  0]LogSlate: Took 0.007413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-04.12.24:095][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2017.04.22-04.12.24:097][  0]LogTemp:Display: Added material ShaderMap 0x000001D24F25D280 with Material 0x000001D24F256380 to ShaderMapsBeingCompiled
+[2017.04.22-04.12.24:118][  0]LogTemp:Display: Kicking off shader compilation for LevelGridMaterial2, GameThreadShaderMap 0x000001D24F25D280
+[2017.04.22-04.12.24:157][  0]LogRenderer: Reallocating scene render targets to support 876x436 NumSamples 1 (Frame:3).
+[2017.04.22-04.12.24:157][  0]LogSlate: Took 0.006489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-04.12.24:286][  1]LogTemp:Display: Finished compile of shader map 0x000001D21F61B200
+[2017.04.22-04.12.24:286][  1]LogTemp:Display: Shader map CustomDepthWorldUnits complete, GameThreadShaderMap 0x000001D21F61B200, marking material CustomDepthWorldUnits as finished
+[2017.04.22-04.12.24:286][  1]LogTemp:Display: Marking material as finished 0x000001D21F62A380
+[2017.04.22-04.12.24:289][  1]LogTemp:Display: Finished compile of shader map 0x000001D21EA7DD00
+[2017.04.22-04.12.24:289][  1]LogTemp:Display: Shader map WorldNormal complete, GameThreadShaderMap 0x000001D21EA7DD00, marking material WorldNormal as finished
+[2017.04.22-04.12.24:290][  1]LogTemp:Display: Marking material as finished 0x000001D21EA66980
+[2017.04.22-04.12.24:293][  1]LogTemp:Display: Finished compile of shader map 0x000001D21EE88B80
+[2017.04.22-04.12.24:293][  1]LogTemp:Display: Shader map SeparateTranslucencyA complete, GameThreadShaderMap 0x000001D21EE88B80, marking material SeparateTranslucencyA as finished
+[2017.04.22-04.12.24:293][  1]LogTemp:Display: Marking material as finished 0x000001D21F19C580
+[2017.04.22-04.12.24:296][  1]LogTemp:Display: Finished compile of shader map 0x000001D21F194800
+[2017.04.22-04.12.24:296][  1]LogTemp:Display: Shader map SeparateTranslucencyRGB complete, GameThreadShaderMap 0x000001D21F194800, marking material SeparateTranslucencyRGB as finished
+[2017.04.22-04.12.24:296][  1]LogTemp:Display: Marking material as finished 0x000001D21F19E200
+[2017.04.22-04.12.24:459][  2]LogAssetRegistry: Asset discovery search completed in 39.1332 seconds
+[2017.04.22-04.12.24:459][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2017.04.22-04.12.24:459][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000251 seconds (updated 0 objects)
+[2017.04.22-04.12.24:916][ 18]LogTemp:Display: Finished compile of shader map 0x000001D21ED95980
+[2017.04.22-04.12.24:916][ 18]LogTemp:Display: Shader map SubsurfaceColor complete, GameThreadShaderMap 0x000001D21ED95980, marking material SubsurfaceColor as finished
+[2017.04.22-04.12.24:916][ 18]LogTemp:Display: Marking material as finished 0x000001D21EE38880
+[2017.04.22-04.12.24:920][ 18]LogTemp:Display: Finished compile of shader map 0x000001D21EE19280
+[2017.04.22-04.12.24:920][ 18]LogTemp:Display: Shader map Specular complete, GameThreadShaderMap 0x000001D21EE19280, marking material Specular as finished
+[2017.04.22-04.12.24:920][ 18]LogTemp:Display: Marking material as finished 0x000001D21EE3A200
+[2017.04.22-04.12.25:256][ 37]LogTemp:Display: Finished compile of shader map 0x000001D21E9FA080
+[2017.04.22-04.12.25:256][ 37]LogTemp:Display: Shader map AmbientOcclusion complete, GameThreadShaderMap 0x000001D21E9FA080, marking material AmbientOcclusion as finished
+[2017.04.22-04.12.25:256][ 37]LogTemp:Display: Marking material as finished 0x000001D21EA64B80
+[2017.04.22-04.12.26:114][ 85]LogTemp:Display: Finished compile of shader map 0x000001D220236E80
+[2017.04.22-04.12.26:114][ 85]LogTemp:Display: Shader map PostTonemapHDRColor complete, GameThreadShaderMap 0x000001D220236E80, marking material PostTonemapHDRColor as finished
+[2017.04.22-04.12.26:114][ 85]LogTemp:Display: Marking material as finished 0x000001D21F598A00
+[2017.04.22-04.12.26:408][102]LogTemp:Display: Finished compile of shader map 0x000001D21F54AE80
+[2017.04.22-04.12.26:408][102]LogTemp:Display: Shader map PreTonemapHDRColor complete, GameThreadShaderMap 0x000001D21F54AE80, marking material PreTonemapHDRColor as finished
+[2017.04.22-04.12.26:408][102]LogTemp:Display: Marking material as finished 0x000001D21F59A500
+[2017.04.22-04.12.26:412][102]LogTemp:Display: Finished compile of shader map 0x000001D21F59F900
+[2017.04.22-04.12.26:412][102]LogTemp:Display: Shader map SceneDepthWorldUnits complete, GameThreadShaderMap 0x000001D21F59F900, marking material SceneDepthWorldUnits as finished
+[2017.04.22-04.12.26:412][102]LogTemp:Display: Marking material as finished 0x000001D21F628700
+[2017.04.22-04.12.27:575][171]LogTemp:Display: Finished compile of shader map 0x000001D21FC52400
+[2017.04.22-04.12.27:575][171]LogTemp:Display: Shader map HighResScreenshot complete, GameThreadShaderMap 0x000001D21FC52400, marking material HighResScreenshot as finished
+[2017.04.22-04.12.27:575][171]LogTemp:Display: Marking material as finished 0x000001D218C4DA80
+[2017.04.22-04.12.27:726][180]LogTemp:Display: Finished compile of shader map 0x000001D21F9D1280
+[2017.04.22-04.12.27:726][180]LogTemp:Display: Shader map HighResScreenshotCaptureRegion complete, GameThreadShaderMap 0x000001D21F9D1280, marking material HighResScreenshotCaptureRegion as finished
+[2017.04.22-04.12.27:726][180]LogTemp:Display: Marking material as finished 0x000001D218B91A80
+[2017.04.22-04.12.27:730][180]LogTemp:Display: Finished compile of shader map 0x000001D218B8F900
+[2017.04.22-04.12.27:730][180]LogTemp:Display: Shader map HighResScreenshotMask complete, GameThreadShaderMap 0x000001D218B8F900, marking material HighResScreenshotMask as finished
+[2017.04.22-04.12.27:730][180]LogTemp:Display: Marking material as finished 0x000001D218B93880
+[2017.04.22-04.12.29:531][285]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.22-04.12.29:541][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.12.29:541][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-04.12.29:545][285]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2017, 4:12:29 PM)
+[2017.04.22-04.12.29:545][285]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.22-04.12.29:570][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024993s)
+[2017.04.22-04.12.29:570][285]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.22-04.12.29:571][285]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2017.04.22-04.12.29:571][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026295s)
+[2017.04.22-04.12.29:635][285]LogInit: XAudio2 using 'DELL S2715H-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.22-04.12.29:647][285]LogInit: FAudioDevice initialized.
+[2017.04.22-04.12.29:702][285]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.22-04.12.29:707][285]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.21-22.12.29
+[2017.04.22-04.12.29:708][285]LogWorld: Bringing up level for play took: 0.003380
+[2017.04.22-04.12.29:779][285]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.04.22-04.12.29:780][285]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.22-04.12.29:780][285]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.22-04.12.29:780][285]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.22-04.12.29:781][285]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.22-04.12.29:781][285]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.414
+[2017.04.22-04.12.29:781][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.12.41:715][991]LogTemp:Display: Finished compile of shader map 0x000001D21F958800
+[2017.04.22-04.12.41:715][991]LogTemp:Display: Shader map WireframeMaterial complete, GameThreadShaderMap 0x000001D21F958800, marking material WireframeMaterial as finished
+[2017.04.22-04.12.41:715][991]LogTemp:Display: Marking material as finished 0x000001D21F96E200
+[2017.04.22-04.13.02:452][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.13.02:496][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.13.21:076][676]LogTemp:Display: Finished compile of shader map 0x000001D2225B4B80
+[2017.04.22-04.13.21:076][676]LogTemp:Display: Shader map LevelColorationLitMaterial complete, GameThreadShaderMap 0x000001D2225B4B80, marking material LevelColorationLitMaterial as finished
+[2017.04.22-04.13.21:076][676]LogTemp:Display: Marking material as finished 0x000001D22257FB80
+[2017.04.22-04.13.27:734][696]LogTemp:Display: Finished compile of shader map 0x000001D22929AB00
+[2017.04.22-04.13.27:734][696]LogTemp:Display: Shader map LevelColorationUnlitMaterial complete, GameThreadShaderMap 0x000001D22929AB00, marking material LevelColorationUnlitMaterial as finished
+[2017.04.22-04.13.27:734][696]LogTemp:Display: Marking material as finished 0x000001D226640B80
+[2017.04.22-04.13.36:742][723]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-04.14.04:076][805]LogTemp:Display: Finished compile of shader map 0x000001D22994C480
+[2017.04.22-04.14.04:076][805]LogTemp:Display: Shader map MAT_LevelColorationLitLightmapUV complete, GameThreadShaderMap 0x000001D22994C480, marking material MAT_LevelColorationLitLightmapUV as finished
+[2017.04.22-04.14.04:076][805]LogTemp:Display: Marking material as finished 0x000001D22992AF80
+[2017.04.22-04.14.36:081][901]LogTemp:Display: Finished compile of shader map 0x000001D22FCF9600
+[2017.04.22-04.14.36:081][901]LogTemp:Display: Shader map ShadedLevelColorationLitMaterial complete, GameThreadShaderMap 0x000001D22FCF9600, marking material ShadedLevelColorationLitMaterial as finished
+[2017.04.22-04.14.36:081][901]LogTemp:Display: Marking material as finished 0x000001D22DE50580
+[2017.04.22-04.14.43:740][924]LogTemp:Display: Finished compile of shader map 0x000001D235E4EE80
+[2017.04.22-04.14.43:740][924]LogTemp:Display: Shader map ShadedLevelColorationUnlitMateri complete, GameThreadShaderMap 0x000001D235E4EE80, marking material ShadedLevelColorationUnlitMateri as finished
+[2017.04.22-04.14.43:740][924]LogTemp:Display: Marking material as finished 0x000001D2341E4E80
+[2017.04.22-04.14.46:395][932]LogTemp:Display: Finished compile of shader map 0x000001D237A99D00
+[2017.04.22-04.14.46:395][932]LogTemp:Display: Shader map VertexColorViewMode_ColorOnly complete, GameThreadShaderMap 0x000001D237A99D00, marking material VertexColorViewMode_ColorOnly as finished
+[2017.04.22-04.14.46:395][932]LogTemp:Display: Marking material as finished 0x000001D238216500
+[2017.04.22-04.14.46:404][932]LogTemp:Display: Finished compile of shader map 0x000001D23823DD00
+[2017.04.22-04.14.46:404][932]LogTemp:Display: Shader map VertexColorMaterial complete, GameThreadShaderMap 0x000001D23823DD00, marking material VertexColorMaterial as finished
+[2017.04.22-04.14.46:404][932]LogTemp:Display: Marking material as finished 0x000001D238217E80
+[2017.04.22-04.14.46:728][933]LogTemp:Display: Finished compile of shader map 0x000001D2379BF900
+[2017.04.22-04.14.46:728][933]LogTemp:Display: Shader map VertexColorViewMode_AlphaAsColor complete, GameThreadShaderMap 0x000001D2379BF900, marking material VertexColorViewMode_AlphaAsColor as finished
+[2017.04.22-04.14.46:728][933]LogTemp:Display: Marking material as finished 0x000001D238214E80
+[2017.04.22-04.14.47:395][935]LogTemp:Display: Finished compile of shader map 0x000001D2385DEB00
+[2017.04.22-04.14.47:395][935]LogTemp:Display: Shader map VertexColorViewMode_GreenOnly complete, GameThreadShaderMap 0x000001D2385DEB00, marking material VertexColorViewMode_GreenOnly as finished
+[2017.04.22-04.14.47:395][935]LogTemp:Display: Marking material as finished 0x000001D238685780
+[2017.04.22-04.14.47:399][935]LogTemp:Display: Finished compile of shader map 0x000001D23793D280
+[2017.04.22-04.14.47:399][935]LogTemp:Display: Shader map VertexColorViewMode_RedOnly complete, GameThreadShaderMap 0x000001D23793D280, marking material VertexColorViewMode_RedOnly as finished
+[2017.04.22-04.14.47:399][935]LogTemp:Display: Marking material as finished 0x000001D238686F80
+[2017.04.22-04.14.48:061][937]LogTemp:Display: Finished compile of shader map 0x000001D239222400
+[2017.04.22-04.14.48:061][937]LogTemp:Display: Shader map RemoveSurfaceMaterial complete, GameThreadShaderMap 0x000001D239222400, marking material RemoveSurfaceMaterial as finished
+[2017.04.22-04.14.48:061][937]LogTemp:Display: Marking material as finished 0x000001D239296980
+[2017.04.22-04.14.48:064][937]LogTemp:Display: Finished compile of shader map 0x000001D23857C480
+[2017.04.22-04.14.48:065][937]LogTemp:Display: Shader map VertexColorViewMode_BlueOnly complete, GameThreadShaderMap 0x000001D23857C480, marking material VertexColorViewMode_BlueOnly as finished
+[2017.04.22-04.14.48:065][937]LogTemp:Display: Marking material as finished 0x000001D238684100
+[2017.04.22-04.14.49:062][940]LogTemp:Display: Finished compile of shader map 0x000001D2391B3580
+[2017.04.22-04.14.49:062][940]LogTemp:Display: Shader map DebugMeshMaterial complete, GameThreadShaderMap 0x000001D2391B3580, marking material DebugMeshMaterial as finished
+[2017.04.22-04.14.49:062][940]LogTemp:Display: Marking material as finished 0x000001D239295480
+[2017.04.22-04.14.50:728][945]LogTemp:Display: Finished compile of shader map 0x000001D2389C6080
+[2017.04.22-04.14.50:728][945]LogTemp:Display: Shader map GizmoMaterial complete, GameThreadShaderMap 0x000001D2389C6080, marking material GizmoMaterial as finished
+[2017.04.22-04.14.50:728][945]LogTemp:Display: Marking material as finished 0x000001D238E55600
+[2017.04.22-04.14.51:065][946]LogTemp:Display: Finished compile of shader map 0x000001D239134B80
+[2017.04.22-04.14.51:065][946]LogTemp:Display: Shader map M_InvalidLightmapSettings complete, GameThreadShaderMap 0x000001D239134B80, marking material M_InvalidLightmapSettings as finished
+[2017.04.22-04.14.51:065][946]LogTemp:Display: Marking material as finished 0x000001D238E56E00
+[2017.04.22-04.14.51:730][948]LogTemp:Display: Finished compile of shader map 0x000001D2388F7C80
+[2017.04.22-04.14.51:730][948]LogTemp:Display: Shader map PhAT_JointLimitMaterial complete, GameThreadShaderMap 0x000001D2388F7C80, marking material PhAT_JointLimitMaterial as finished
+[2017.04.22-04.14.51:730][948]LogTemp:Display: Marking material as finished 0x000001D2388FBA00
+[2017.04.22-04.14.52:418][950]LogTemp:Display: Finished compile of shader map 0x000001D239546E80
+[2017.04.22-04.14.52:418][950]LogTemp:Display: Shader map EditorBrushMaterial complete, GameThreadShaderMap 0x000001D239546E80, marking material EditorBrushMaterial as finished
+[2017.04.22-04.14.52:418][950]LogTemp:Display: Marking material as finished 0x000001D2395DE380
+[2017.04.22-04.14.52:422][950]LogTemp:Display: Finished compile of shader map 0x000001D239620B80
+[2017.04.22-04.14.52:422][950]LogTemp:Display: Shader map GeomMaterial complete, GameThreadShaderMap 0x000001D239620B80, marking material GeomMaterial as finished
+[2017.04.22-04.14.52:422][950]LogTemp:Display: Marking material as finished 0x000001D2395DFE80
+[2017.04.22-04.14.58:401][968]LogTemp:Display: Finished compile of shader map 0x000001D23A5A5D00
+[2017.04.22-04.14.58:401][968]LogTemp:Display: Shader map PreviewShadowIndicatorMaterial complete, GameThreadShaderMap 0x000001D23A5A5D00, marking material PreviewShadowIndicatorMaterial as finished
+[2017.04.22-04.14.58:401][968]LogTemp:Display: Marking material as finished 0x000001D2398FCB80
+[2017.04.22-04.14.58:733][969]LogTemp:Display: Finished compile of shader map 0x000001D23A25CF00
+[2017.04.22-04.14.58:734][969]LogTemp:Display: Shader map BoneWeightMaterial complete, GameThreadShaderMap 0x000001D23A25CF00, marking material BoneWeightMaterial as finished
+[2017.04.22-04.14.58:734][969]LogTemp:Display: Marking material as finished 0x000001D2395DCB80
+[2017.04.22-04.14.59:066][970]LogTemp:Display: Finished compile of shader map 0x000001D23AC63580
+[2017.04.22-04.14.59:066][970]LogTemp:Display: Shader map Cross_Mat complete, GameThreadShaderMap 0x000001D23AC63580, marking material Cross_Mat as finished
+[2017.04.22-04.14.59:066][970]LogTemp:Display: Marking material as finished 0x000001D23AC36C80
+[2017.04.22-04.14.59:731][972]LogTemp:Display: Finished compile of shader map 0x000001D23AA6AB00
+[2017.04.22-04.14.59:731][972]LogTemp:Display: Shader map PhAT_BoneSelectedMaterial complete, GameThreadShaderMap 0x000001D23AA6AB00, marking material PhAT_BoneSelectedMaterial as finished
+[2017.04.22-04.14.59:731][972]LogTemp:Display: Marking material as finished 0x000001D23AC35600
+[2017.04.22-04.15.00:063][973]LogTemp:Display: Finished compile of shader map 0x000001D23A9E9600
+[2017.04.22-04.15.00:063][973]LogTemp:Display: Shader map PhAT_ElemSelectedMaterial complete, GameThreadShaderMap 0x000001D23A9E9600, marking material PhAT_ElemSelectedMaterial as finished
+[2017.04.22-04.15.00:063][973]LogTemp:Display: Marking material as finished 0x000001D23A9ABE80
+[2017.04.22-04.15.00:396][974]LogTemp:Display: Finished compile of shader map 0x000001D23A978100
+[2017.04.22-04.15.00:396][974]LogTemp:Display: Shader map PhAT_NoCollisionMaterial complete, GameThreadShaderMap 0x000001D23A978100, marking material PhAT_NoCollisionMaterial as finished
+[2017.04.22-04.15.00:396][974]LogTemp:Display: Marking material as finished 0x000001D23A9AA680
+[2017.04.22-04.15.01:063][976]LogTemp:Display: Finished compile of shader map 0x000001D23A872B00
+[2017.04.22-04.15.01:063][976]LogTemp:Display: Shader map PhAT_UnselectedMaterial complete, GameThreadShaderMap 0x000001D23A872B00, marking material PhAT_UnselectedMaterial as finished
+[2017.04.22-04.15.01:063][976]LogTemp:Display: Marking material as finished 0x000001D23A9A9000
+[2017.04.22-04.15.01:730][978]LogTemp:Display: Finished compile of shader map 0x000001D23A801280
+[2017.04.22-04.15.01:730][978]LogTemp:Display: Shader map Tick_Mat complete, GameThreadShaderMap 0x000001D23A801280, marking material Tick_Mat as finished
+[2017.04.22-04.15.01:730][978]LogTemp:Display: Marking material as finished 0x000001D23A7B2F80
+[2017.04.22-04.15.02:064][979]LogTemp:Display: Finished compile of shader map 0x000001D23A6C8480
+[2017.04.22-04.15.02:064][979]LogTemp:Display: Shader map WidgetGridVertexColorMaterial_Ma complete, GameThreadShaderMap 0x000001D23A6C8480, marking material WidgetGridVertexColorMaterial_Ma as finished
+[2017.04.22-04.15.02:064][979]LogTemp:Display: Marking material as finished 0x000001D23A7B1300
+[2017.04.22-04.15.02:397][980]LogTemp:Display: Finished compile of shader map 0x000001D27B2F0F00
+[2017.04.22-04.15.02:397][980]LogTemp:Display: Shader map WidgetMaterial complete, GameThreadShaderMap 0x000001D27B2F0F00, marking material WidgetMaterial as finished
+[2017.04.22-04.15.02:397][980]LogTemp:Display: Marking material as finished 0x000001D27B3B7880
+[2017.04.22-04.15.02:728][981]LogTemp:Display: Finished compile of shader map 0x000001D277074480
+[2017.04.22-04.15.02:728][981]LogTemp:Display: Shader map WidgetMaterial_Current complete, GameThreadShaderMap 0x000001D277074480, marking material WidgetMaterial_Current as finished
+[2017.04.22-04.15.02:728][981]LogTemp:Display: Marking material as finished 0x000001D27B3B6080
+[2017.04.22-04.15.03:396][983]LogTemp:Display: Finished compile of shader map 0x000001D23EE0EB00
+[2017.04.22-04.15.03:396][983]LogTemp:Display: Shader map WidgetMaterial_X complete, GameThreadShaderMap 0x000001D23EE0EB00, marking material WidgetMaterial_X as finished
+[2017.04.22-04.15.03:396][983]LogTemp:Display: Marking material as finished 0x000001D27B3B4B80
+[2017.04.22-04.15.03:729][984]LogTemp:Display: Finished compile of shader map 0x000001D23ED85280
+[2017.04.22-04.15.03:730][984]LogTemp:Display: Shader map WidgetMaterial_Y complete, GameThreadShaderMap 0x000001D23ED85280, marking material WidgetMaterial_Y as finished
+[2017.04.22-04.15.03:730][984]LogTemp:Display: Marking material as finished 0x000001D23ED32F80
+[2017.04.22-04.15.04:063][985]LogTemp:Display: Finished compile of shader map 0x000001D23F9FFC80
+[2017.04.22-04.15.04:063][985]LogTemp:Display: Shader map WidgetMaterial_Z complete, GameThreadShaderMap 0x000001D23F9FFC80, marking material WidgetMaterial_Z as finished
+[2017.04.22-04.15.04:063][985]LogTemp:Display: Marking material as finished 0x000001D23ED31600
+[2017.04.22-04.15.04:732][987]LogTemp:Display: Finished compile of shader map 0x000001D23F976400
+[2017.04.22-04.15.04:732][987]LogTemp:Display: Shader map WidgetVertexColorMaterial complete, GameThreadShaderMap 0x000001D23F976400, marking material WidgetVertexColorMaterial as finished
+[2017.04.22-04.15.04:732][987]LogTemp:Display: Marking material as finished 0x000001D23F947E80
+[2017.04.22-04.15.06:063][991]LogTemp:Display: Finished compile of shader map 0x000001D23F210100
+[2017.04.22-04.15.06:063][991]LogTemp:Display: Shader map BlinkingCaret complete, GameThreadShaderMap 0x000001D23F210100, marking material BlinkingCaret as finished
+[2017.04.22-04.15.06:063][991]LogTemp:Display: Marking material as finished 0x000001D23F579A80
+[2017.04.22-04.15.06:073][991]LogTemp:Display: Finished compile of shader map 0x000001D23F601280
+[2017.04.22-04.15.06:073][991]LogTemp:Display: Shader map LevelGridMaterial complete, GameThreadShaderMap 0x000001D23F601280, marking material LevelGridMaterial as finished
+[2017.04.22-04.15.06:073][991]LogTemp:Display: Marking material as finished 0x000001D23F5BA800
+[2017.04.22-04.15.06:730][993]LogTemp:Display: Finished compile of shader map 0x000001D240222B00
+[2017.04.22-04.15.06:730][993]LogTemp:Display: Shader map M_StreamingPause complete, GameThreadShaderMap 0x000001D240222B00, marking material M_StreamingPause as finished
+[2017.04.22-04.15.06:730][993]LogTemp:Display: Marking material as finished 0x000001D23F5B8E80
+[2017.04.22-04.15.08:406][998]LogTemp:Display: Finished compile of shader map 0x000001D24009A080
+[2017.04.22-04.15.08:406][998]LogTemp:Display: Shader map M_Basic_Floor complete, GameThreadShaderMap 0x000001D24009A080, marking material M_Basic_Floor as finished
+[2017.04.22-04.15.08:406][998]LogTemp:Display: Marking material as finished 0x000001D240EA6080
+[2017.04.22-04.15.09:403][  1]LogTemp:Display: Finished compile of shader map 0x000001D210B7C100
+[2017.04.22-04.15.09:403][  1]LogTemp:Display: Shader map CubeMaterial complete, GameThreadShaderMap 0x000001D210B7C100, marking material CubeMaterial as finished
+[2017.04.22-04.15.09:403][  1]LogTemp:Display: Marking material as finished 0x000001D20FC95A80
+[2017.04.22-04.15.16:739][ 23]LogTemp:Display: Finished compile of shader map 0x000001D20B412780
+[2017.04.22-04.15.16:739][ 23]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001D20B412780, marking material M_UE4Man_Body as finished
+[2017.04.22-04.15.16:739][ 23]LogTemp:Display: Marking material as finished 0x000001D276C9E800
+[2017.04.22-04.15.22:127][ 39]LogTemp:Display: Finished compile of shader map 0x000001D24F25D280
+[2017.04.22-04.15.22:127][ 39]LogTemp:Display: Shader map LevelGridMaterial2 complete, GameThreadShaderMap 0x000001D24F25D280, marking material LevelGridMaterial2 as finished
+[2017.04.22-04.15.22:127][ 39]LogTemp:Display: Marking material as finished 0x000001D24F256380
+[2017.04.22-04.15.22:742][ 41]LogTemp:Display: Finished compile of shader map 0x000001D203F45D00
+[2017.04.22-04.15.22:742][ 41]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x000001D203F45D00, marking material M_UE4Man_Body as finished
+[2017.04.22-04.15.22:742][ 41]LogTemp:Display: Marking material as finished 0x000001D27FCEDD80
+[2017.04.22-04.15.22:758][ 41]LogTemp:Display: Finished compile of shader map 0x000001D27B585980
+[2017.04.22-04.15.22:758][ 41]LogTemp:Display: Shader map M_Sky_Panning_Clouds2 complete, GameThreadShaderMap 0x000001D27B585980, marking material M_Sky_Panning_Clouds2 as finished
+[2017.04.22-04.15.22:758][ 41]LogTemp:Display: Marking material as finished 0x000001D20E4A9180
+[2017.04.22-04.15.33:095][323]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.22-04.15.33:106][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.15.33:106][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-04.15.33:106][323]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2017, 4:15:33 PM)
+[2017.04.22-04.15.33:106][323]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.22-04.15.33:139][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032745s)
+[2017.04.22-04.15.33:140][323]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.22-04.15.33:140][323]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2017.04.22-04.15.33:140][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033976s)
+[2017.04.22-04.15.33:165][323]LogInit: XAudio2 using 'DELL S2715H-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.22-04.15.33:173][323]LogInit: FAudioDevice initialized.
+[2017.04.22-04.15.33:207][323]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.22-04.15.33:214][323]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.04.21-22.15.33
+[2017.04.22-04.15.33:215][323]LogWorld: Bringing up level for play took: 0.004729
+[2017.04.22-04.15.33:216][323]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.22-04.15.33:216][323]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.22-04.15.33:216][323]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.22-04.15.33:217][323]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.22-04.15.33:217][323]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.022
+[2017.04.22-04.15.33:217][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.16.35:593][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.22-04.16.35:638][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
